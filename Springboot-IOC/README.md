@@ -2,6 +2,7 @@
 
 ## 控制反轉IOC（Inversion of Control，IOC）
 * 控制反轉為一個設計思想 ，把對於某個物件的控制權移轉給第三方容器
+* 被Spring容器創建的object，叫做bean
 
 ex:
 A物件程式內部需要使用B物件 A,B物件中有依賴的成份
