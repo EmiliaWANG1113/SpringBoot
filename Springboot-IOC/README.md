@@ -30,3 +30,15 @@ public class HpPrinter implements Printer{
 }
 ```
 
+```java
+@Component
+public class Teacher{
+    @Autowired
+    private Printer printer;
+    
+    public void teach(){
+         printer.print("I'm a teacher");
+    }
+}
+```
+
