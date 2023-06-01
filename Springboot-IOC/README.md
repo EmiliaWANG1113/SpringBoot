@@ -20,6 +20,7 @@ A物件程式內部需要使用B物件 A,B物件中有依賴的成份
 * 用途：將該class變成由Spring容器所管理的object
 
 ```java
+@Component
 public class HpPrinter implements Printer{
     @Override
     public void print(String message){
